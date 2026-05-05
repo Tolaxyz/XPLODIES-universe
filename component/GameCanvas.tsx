@@ -31,7 +31,7 @@ export default function GameCanvas() {
         const titleSize = width < 768 ? "38px" : "72px";
 
         const title = this.add
-          .text(width / 2, height / 2 - 140, "Welcome to L0F0", {
+          .text(width / 2, height / 2 - 140, "Welcome to XPLODIES", {
             fontFamily: "Comic Sans MS",
             fontSize: titleSize,
             color: "#F8F4FF",
@@ -327,7 +327,7 @@ export default function GameCanvas() {
         const centerY = this.cameras.main.height / 2;
 
         const floatingText = this.add
-          .text(centerX, centerY, "L0F0's pLaYgRoUnD", {
+          .text(centerX, centerY, "XPLODIES", {
             fontFamily: "Comic Sans MS",
             fontSize: this.isMobile ? "40px" : "64px",
             fontStyle: "bold",
